@@ -39,3 +39,14 @@ newDiv.appendChild(para2);
 
 
 container.appendChild(newDiv);
+
+// This is the example for alert function METHOD 1
+function alertFunction() {
+    alert("YAY! YOU DID IT!");
+  }
+
+  // METHOD 2 & 3 with changing its property
+  const btn = document.querySelector("#btn");
+  btn.addEventListener("click", function (e) {
+  e.target.style.background = "blue";
+  });
